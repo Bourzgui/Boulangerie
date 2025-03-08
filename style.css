@@ -1,0 +1,109 @@
+/* Général */
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+.navbar-fixed {
+    height: 64px;
+}
+
+/* Section Hero */
+.hero {
+    background: url('https://images.pexels.com/photos/1756062/pexels-photo-1756062.jpeg?auto=compress&cs=tinysrgb&w=1600') no-repeat center;
+    background-size: cover;
+    height: 400px;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.motto {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: italic;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 25px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* Sections générales */
+section {
+    padding: 50px 0;
+}
+
+h3 {
+    font-weight: 600;
+    color: #00695c; /* Teal darken-3 pour correspondre au thème */
+}
+
+/* À propos */
+#about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Services */
+.card .card-image img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card .card-title {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.card-content p {
+    font-size: 1rem;
+    color: #424242;
+}
+
+/* Contact */
+#contact {
+    background-color: #e0f2f1; /* Teal lighten-5 */
+}
+
+#contact .btn {
+    margin-top: 20px;
+}
+
+/* Footer */
+.page-footer {
+    padding-top: 20px;
+}
+
+/* Responsivité */
+@media (max-width: 600px) {
+    .hero {
+        height: 300px;
+        padding-top: 100px;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .motto {
+        font-size: 1.2rem;
+    }
+}

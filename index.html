@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boulangerie Délicieuse || Materialize CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Lien vers le fichier CSS externe -->
+</head>
+
+<body>
+    <!-- Barre de navigation -->
+    <nav class="navbar-fixed teal">
+        <div class="nav-wrapper container">
+            <a href="#home" class="brand-logo">Boulangerie Délicieuse</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Section Accueil -->
+    <section id="home" class="hero scrollspy">
+        <div class="container">
+            <h1>Bienvenue à la Boulangerie Délicieuse</h1>
+            <p>Des pains frais et des pâtisseries artisanales chaque jour !</p>
+            <p class="motto">Fait avec passion, servi avec cœur</p>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="about" class="grey lighten-4 scrollspy">
+        <div class="container">
+            <h3 class="center">À propos de nous</h3>
+            <div class="row">
+                <div class="col s12 m6">
+                    <p>Nous sommes une boulangerie familiale qui perpétue des recettes traditionnelles depuis plus de 20 ans. Chaque produit est préparé avec amour et des ingrédients de qualité.</p>
+                </div>
+                <div class="col s12 m6">
+                    <img src="https://images.pexels.com/photos/230743/pexels-photo-230743.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Pains frais" class="responsive-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Services -->
+    <section id="services" class="scrollspy">
+        <div class="container">
+            <h3 class="center">Nos Services</h3>
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="https://images.pexels.com/photos/1775035/pexels-photo-1775035.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Pains artisanaux">
+                            <span class="card-title">Pains Artisanaux</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Pains artisanaux cuits quotidiennement.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="https://images.pexels.com/photos/1028704/pexels-photo-1028704.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Pâtisseries">
+                            <span class="card-title">Pâtisseries Fines</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Pâtisseries fines pour toutes les occasions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="https://images.pexels.com/photos/8027652/pexels-photo-8027652.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Commandes spéciales">
+                            <span class="card-title">Commandes Spéciales</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Commandes spéciales sur demande.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="teal lighten-5 scrollspy">
+        <div class="container">
+            <h3 class="center">Contactez-nous</h3>
+            <div class="row">
+                <form class="col s12 m8 offset-m2">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="name" type="text" class="validate">
+                            <label for="name">Nom</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">E-mail</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <textarea id="message" class="materialize-textarea"></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12 center">
+                            <button class="btn waves-effect waves-light teal" type="submit">Envoyer
+                                <i class="material-icons right">send</i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="page-footer teal">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 center">
+                    <p class="white-text">© 2025 Boulangerie Délicieuse. Tous droits réservés.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var scrollspy = M.ScrollSpy.init(document.querySelectorAll('.scrollspy'), {});
+        });
+    </script>
+</body>
+
+</html>
