@@ -31,3 +31,6 @@ Pour exécuter ce projet localement :
 1. **Cloner le dépôt** (si hébergé sur GitHub) :
    ```bash
    git clone https://github.com/votre-utilisateur/boulangerie-delicieuse.git
+
+## site web link 
+https://bourzgui.github.io/Boulangerie/
